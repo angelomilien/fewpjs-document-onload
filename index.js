@@ -3,7 +3,8 @@
 
 
   function changeElementText() {
-   ele = document.getElementById( "text" ).innerHTML = "This is really cool!";
+    let ele = document.getElementById( "text" )
+    ele.innerHTML = "This is really cool!";
     return ele
   };
 
